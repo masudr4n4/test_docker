@@ -1,0 +1,21 @@
+docker pull image_name
+example = 
+docker pull hello-world
+
+
+CheckofImage: docker images
+return all the images list
+
+show running and non running container:
+docker ps -a 
+
+show only running images:
+docker ps
+
+
+get shell for container:
+docker exec -it(interactively) container_name bash
+
+
+remover docker :
+docker rm container_name
